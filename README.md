@@ -48,7 +48,7 @@ If you let the timeout of the docker cloud to 60s and the response delay of `/co
 
 `java.net.SocketTimeoutException: Read timed out: No data received within 60000ms.  Perhaps the docker API`
 
-Now stop the job still waiting for node provision, and wait 5 mins then the docker cloud will be enabled again. Your can enable it manually if you don't want to wait.
+Now stop the job still waiting for node provision, and wait 5 mins then the docker cloud will be enabled again. You can enable it manually if you don't want to wait.
 
 ## Block docker-mock cloud provision
 Launch the job again but now stop mockserver before the `SocketTimeoutException`. 
