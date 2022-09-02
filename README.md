@@ -60,6 +60,9 @@ Go to Configuration -> Tools and Actions -> Reload configuration from disk
 
 **Now no more docker node can be provisioned on any cloud, you must stop Jenkins JVM and restart to do more tests**
 
+## Resolution
+This issue will be resolved when https://github.com/jenkinsci/docker-java-api-plugin/pull/26 and https://github.com/jenkinsci/docker-plugin/pull/900 will be merged.
+
 
 
 
